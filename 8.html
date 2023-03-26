@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+        .container-fluid{
+            background-color: rgb(82, 81, 81);
+        }
+        .btn {
+            background-color: green;
+            width: 50%;
+            color: white;
+        }
+        .Home{
+            width: 100%;
+            height: 400px;
+            background-color: rgb(244, 238, 229);
+        }
+        .home1{
+          margin-left: 100px;
+          margin-bottom: 100px;
+        }
+        .alert {
+            width: 80%;
+            margin: 5%;
+        }
+        .main{
+            display: flex;
+            margin: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bootstrap Mini-project</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li> 
+              <!-- <li class="list-group-item active" aria-current="true">About</li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="Email" placeholder="Email" aria-label="Email">
+              <input class="form-control me-2" type="password" placeholder="password" aria-label="password">
+              <button class="btn btn-outline-success" type="submit">sing up</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="Home">
+      <div class="home1">
+        <h1>Hello,World</h1>
+        <p>This is Exericies #9 .it includes a large callout called a jumbotron and three supporting pieces of content.</p> 
+        <button class="bottom" type="submit" style="background-color: blue;">Learn More</button>
+      </div>
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show">
+        <strong>Warning!</strong> You subscription is about to expire in 3 days.
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <div class="main">
+        <div class="part1">
+            <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Exercitationem nisi ipsum quas recusandae asperiores <br>repudiandae corporis culpa ut, aspernatur cumque sit fugit repellendus nihil libero provident animi quo dolore error?</p>
+            <button class="bottom" type="button" >view detils</button>
+        </div>
+
+        <div class="part1">
+            <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Exercitationem nisi ipsum quas recusandae asperiores <br>repudiandae corporis culpa ut, aspernatur cumque sit fugit repellendus nihil libero provident animi quo dolore error?</p>
+
+            <button class="bottom" type="button" >view detils</button>
+        </div>
+        <div class="part1">
+            <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Exercitationem nisi ipsum quas recusandae asperiores <br>repudiandae corporis culpa ut, aspernatur cumque sit fugit repellendus nihil libero provident animi quo dolore error?</p>
+
+            <button class="bottom" type="button" >view detils</button>
+        </div>
+    </div>
+</body>
+</html>
